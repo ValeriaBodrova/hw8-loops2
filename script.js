@@ -10,3 +10,13 @@ for (let i = 20; i <= 30; i += 0.5) {
 }
 
 console.log(output);
+
+//task2
+
+
+
+
+for ( let i = 10; i <= 100; i += 10){
+        let product = i * 40;
+        console.log(product);
+}
