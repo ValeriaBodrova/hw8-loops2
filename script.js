@@ -13,10 +13,19 @@ console.log(output);
 
 //task2
 
-
-
-
 for ( let i = 10; i <= 100; i += 10){
         let product = i * 40;
         console.log(product);
+}
+
+//task3
+let n = 3000;
+
+for (let i = 1; i <= 100; i++){
+    let square = i * i;
+    if(square <= n){
+        console.log(i);
+    } else {
+        break;
+    }
 }
