@@ -29,3 +29,25 @@ for (let i = 1; i <= 100; i++){
         break;
     }
 }
+
+//task4 
+
+function isPrime(number) {
+    if (number <= 1) {
+      return false;
+    }
+  
+    for (let i = 2; i <= Math.sqrt(number); i++) {
+      if (number % i === 0) {
+        return false;
+      }
+    }
+  
+    return true;
+  }
+  
+  console.log(isPrime(53));  
+  console.log(isPrime(24));  
+  console.log(isPrime(1));   
+  
+
