@@ -51,3 +51,25 @@ function isPrime(number) {
   console.log(isPrime(1));   
   
 
+//task5 
+
+function isPowerOfThree(number) {
+    if (number <= 0) {
+      return false;
+    }
+  
+    let power = 0;
+    let result = 1;
+  
+    while (result < number) {
+      result = Math.pow(3, power);
+      power++;
+    }
+  
+    return result === number;
+  }
+  
+
+  console.log(isPowerOfThree(9));   
+  console.log(isPowerOfThree(27));  
+  console.log(isPowerOfThree(10));
